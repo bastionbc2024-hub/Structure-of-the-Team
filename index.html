@@ -138,22 +138,22 @@
             </div>
         </section>
 
-        <!-- SECTION 2: Data Overview (Charts) -->
+        <!-- SECTION 2: Data Overview (Charts) 
         <section>
             <div class="mb-6 border-l-4 border-amber-500 pl-4">
                 <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Аналіз Складу Команди</h2>
                 <p class="text-gray-600 mt-2 text-sm sm:text-base">Кількісний розподіл персоналу між департаментами та рівнями ієрархії демонструє фокус компанії на виробничих процесах.</p>
             </div>
 
-            <!-- Charts Grid (1 column mobile, 2 columns desktop) -->
+            <!-- Charts Grid (1 column mobile, 2 columns desktop) 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
                 
-                <!-- Chart 1: Department Distribution -->
+                <!-- Chart 1: Department Distribution 
                 <div class="bg-white rounded-xl shadow-md p-4 sm:p-6 flex flex-col">
                     <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Розподіл за Департаментами</h3>
                     <p class="text-gray-500 text-xs sm:text-sm mb-4">Відсоткове співвідношення співробітників у ключових функціональних зонах.</p>
                     
-                    <!-- Chart Container -->
+                    <!-- Chart Container 
                     <div class="chart-container flex-grow">
                         <canvas id="deptChart"></canvas>
                     </div>
@@ -163,12 +163,12 @@
                     </div>
                 </div>
 
-                <!-- Chart 2: Hierarchy Levels (Horizontal Bar) -->
+                <!-- Chart 2: Hierarchy Levels (Horizontal Bar) 
                 <div class="bg-white rounded-xl shadow-md p-4 sm:p-6 flex flex-col">
                     <h3 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Ієрархічна Структура</h3>
                     <p class="text-gray-500 text-xs sm:text-sm mb-4">Кількість співробітників на кожному рівні управління та виконання.</p>
                     
-                    <!-- Chart Container -->
+                    <!-- Chart Container 
                     <div class="chart-container flex-grow">
                         <canvas id="hierarchyChart"></canvas>
                     </div>
@@ -206,10 +206,27 @@
                         </li>
                          <li class="flex justify-between items-center border-b pb-2 text-sm sm:text-base">
                             <span class="text-gray-600">Ярошенко Екатерина</span>
-                            <span class="text-xs bg-cyan-50 text-cyan-700 px-2 py-1 rounded">Accountant</span>
+                            <span class="text-xs bg-cyan-50 text-cyan-700 px-2 py-1 rounded"></span>
                         </li>
                          
                     </ul>
+                </div>
+                <!-- Sales Department Head -->
+                    <div class="mt-4 pt-4 border-t">
+                        <div class="font-bold text-xs sm:text-sm text-gray-500 mb-1">КЕРІВНИК ВІДДІЛУ ПРОДАЖІВ</div>
+                        <div class="flex items-center gap-2 text-sm sm:text-base">
+                             <span class="text-gray-800 font-medium">Бондаренко Ана</span>
+                             <span class="text-xs bg-red-100 text-red-600 px-2 py-1 rounded"></span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t">
+                        <div class="font-bold text-xs sm:text-sm text-gray-500 mb-1">ЗАКУПКИ/ЛОГІСТИКА</div>
+                        <div class="flex items-center gap-2 text-sm sm:text-base">
+                             <span class="text-gray-800 font-medium">Ніколаєнко Юлія</span>
+                             <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded"></span>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Managers Column -->
@@ -225,23 +242,7 @@
 </div>
 
                     
-                    <!-- Sales Department Head -->
-                    <div class="mt-4 pt-4 border-t">
-                        <div class="font-bold text-xs sm:text-sm text-gray-500 mb-1">КЕРІВНИК ВІДДІЛУ ПРОДАЖІВ</div>
-                        <div class="flex items-center gap-2 text-sm sm:text-base">
-                             <span class="text-gray-800 font-medium">Бондаренко Ана</span>
-                             <span class="text-xs bg-red-100 text-red-600 px-2 py-1 rounded">Керівник відділу продажів</span>
-                        </div>
-                    </div>
-
-                    <div class="mt-4 pt-4 border-t">
-                        <div class="font-bold text-xs sm:text-sm text-gray-500 mb-1">ЗАКУПКИ</div>
-                        <div class="flex items-center gap-2 text-sm sm:text-base">
-                             <span class="text-gray-800 font-medium">Ніколаєнко Юлія</span>
-                             <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">Логістика/Закупки</span>
-                        </div>
-                    </div>
-                </div>
+                    
 
                 <!-- Support Column -->
                 <div class="bg-white rounded-xl shadow p-5 sm:p-6 border-t-4 border-purple-400">
@@ -289,7 +290,7 @@
                 <div class="flex justify-center mb-6">
                     <div class="bg-blue-50 border-2 border-blue-200 p-4 rounded-lg w-full max-w-sm text-center">
                         <div class="text-xl sm:text-2xl mb-2">🏭</div>
-                        <div class="font-bold text-blue-800 text-base sm:text-lg">Керівник виробництва (Lider)</div>
+                        <div class="font-bold text-blue-800 text-base sm:text-lg">Керівник виробництва</div>
                         <div class="text-gray-700 font-medium">Ковальов Владислав</div>
                     </div>
                 </div>
@@ -541,6 +542,7 @@
 </body>
 
 </html>
+
 
 
 
